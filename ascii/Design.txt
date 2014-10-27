@@ -1,0 +1,13 @@
+The game will be designed using an object oriented approach.
+
+------------------------------------------- Design 1st iteration -------------------------------------------------------
+
+Brain Storming:
+A Shape class (base class): It'll contain the rotation functions, 
+A class for each individual piece, this will inherit from the shape class.
+A GameBoard class which holds the current representation of the board and is able to display it and update it on the fly.
+A Random class that decides the next piece using a random number generator.
+A new thread for input. I.e. the gameboard and the input need to run concurrently.
+
+
+
